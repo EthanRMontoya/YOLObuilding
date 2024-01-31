@@ -1,0 +1,7 @@
+
+path: /Users/ethan/MachineLearning1
+train: images/train
+val: images/train
+
+names:
+  0: tank
