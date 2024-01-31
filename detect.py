@@ -3,14 +3,14 @@ from ultralytics import YOLO
 import cv2
 
 # Set the path to the video file
-video_path = 'tanky.mov'
+video_path = 'video name'
 
 # Load the video
 cap = cv2.VideoCapture(video_path)
 ret, frame = cap.read()
 
 # Set the path to the YOLO model
-model_path = os.path.join('.', 'runs', 'detect', 'train19', 'weights', 'best.pt')
+model_path = os.path.join('.', 'runs', 'detect', 'train', 'weights', 'last.pt')
 
 # Load the YOLO model
 model = YOLO(model_path)

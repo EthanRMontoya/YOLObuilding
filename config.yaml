@@ -1,7 +1,7 @@
 
-path: /Users/ethan/MachineLearning1
-train: images/train
+path: DIRECT PATH
+train: images/train (PASSIVE PATH)
 val: images/train
 
 names:
-  0: tank
+  0: class names

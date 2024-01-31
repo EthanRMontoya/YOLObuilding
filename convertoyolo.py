@@ -4,7 +4,7 @@ def convert_to_yolo(line):
     # Modify a single line for YOLO format
     return '0 ' + line.split(' ', 1)[1]
 
-def convert_files_in_directory(directory_path='train'):
+def convert_files_in_directory(directory_path='file path'):
     for filename in os.listdir(directory_path):
         if filename.endswith(".txt"):
             file_path = os.path.join(directory_path, filename)
